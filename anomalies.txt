@@ -1,0 +1,11 @@
+This text file holds all the irregularities a.k.a anomalies in the dataset that should be addressed before proceeding further to apply Deep Learning concepts
+
+1. The provided labels and the One-Hot encoded columns doesn't align, meaning the provided labels are unreliable.
+
+2. File paths are provided to only one eye, 
+   - For the first patient record the, he's been diagnosed with Cataract on the left eye and the right eye is Normal, but the file path column contains path to the right eye which is Normal
+
+3. Post sorting observation: Only certain records are paired, like ID: 0,1 others have a missing record or is somehow misplaced at the bottom
+
+   Solution: Find an appropriate sorting algorithm to pair all the IDs
+
