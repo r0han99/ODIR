@@ -7,5 +7,8 @@ This text file holds all the irregularities a.k.a anomalies in the dataset that 
 
 3. Post sorting observation: Only certain records are paired, like ID: 0,1 others have a missing record or is somehow misplaced at the bottom
 
-   Solution: Find an appropriate sorting algorithm to pair all the IDs
+   Solution: 
+	- Find an appropriate sorting algorithm to pair all the IDs -- [x]
+	- The missing pairs can be engineered with the Diagnostic Keywords
+
 
