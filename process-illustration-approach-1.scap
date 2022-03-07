@@ -74,7 +74,7 @@
                 <FormatRange Bold="Yes">0,1</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="10" FontSize="12.0" Position="937.0,246.0" Width="124.0">
+        <Note ID="10" FontSize="12.0" Position="937.0,246.0" Width="133.0">
             <Appearance>
                 <Alignment>Left</Alignment>
                 <Border Weight="2"></Border>
@@ -83,13 +83,13 @@
             <ConnectedNoteIDs>12, 15</ConnectedNoteIDs>
             <PointsToNoteIDs>15</PointsToNoteIDs>
         </Note>
-        <Note ID="12" FontSize="15.0" Position="885.0,242.0" Width="30.0">
+        <Note ID="12" FontSize="15.0" Position="890.0,242.0" Width="20.0">
             <Appearance>
                 <Alignment>Center</Alignment>
                 <Border Weight="1"></Border>
             </Appearance>
-            <String>=</String>
-            <ConnectedNoteIDs>0-5, 10</ConnectedNoteIDs>
+            <String>+</String>
+            <ConnectedNoteIDs>0-5, 10, 18</ConnectedNoteIDs>
             <PointsToNoteIDs>10</PointsToNoteIDs>
         </Note>
         <Note ID="14" FontSize="14.0" Position="1058.0,86.0" Width="212.0" Level="1">
@@ -140,9 +140,23 @@
                 <FormatRange Bold="Yes">0,41</FormatRange>
             </Formatting>
         </Note>
+        <Note ID="18" FontSize="12.0" Position="865.588135,183.240677" Width="67.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+            </Appearance>
+            <String>Aggregator
+</String>
+            <ConnectedNoteIDs>12</ConnectedNoteIDs>
+        </Note>
+        <Note ID="19" FontSize="12.0" Position="131.221832,317.489258" Width="101.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Individual Inputs</String>
+        </Note>
     </Notes>
     <BackgroundShapes></BackgroundShapes>
-    <AutoFit>8, 14</AutoFit>
+    <AutoFit>8, 12, 14, 18-19</AutoFit>
     <NoteStyles>
         <Style Name="Bubble (Blue)" ID="D508BE4D-2375-4C65-9F66-8D3B106F84BC" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
             <BorderThickness>1</BorderThickness>
