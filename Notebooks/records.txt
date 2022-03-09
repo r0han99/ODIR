@@ -1,0 +1,22 @@
+LEFT FUNDUS SAMPLES
+Cataract, samples: 304
+Diabetic Retinopathy, samples: 1588
+Glaucoma, samples: 332
+Pathological Myopia, samples: 216
+Normal, samples: 2100
+************************************************** 
+RIGHT FUNDUS SAMPLES
+Cataract, samples: 290
+Diabetic Retinopathy, samples: 1658
+Glaucoma, samples: 284
+Pathological Myopia, samples: 241
+Normal, samples: 2101
+************************************************** 
+TOTAL SAMPLES - LEFT+RIGHT
+Cataract, samples: 2101
+Diabetic Retinopathy, samples: 2101
+Glaucoma, samples: 2101
+Pathological Myopia, samples: 2101
+Normal, samples: 2101
+************************************************** 
+TOTAL SAMPLES OF ALL CLASSES - 9114
